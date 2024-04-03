@@ -1,7 +1,7 @@
 let js = 'amazing';
 console.log (40 + 8 + 23 - 10);
 
-let firstName = 'Victory';
+/*let firstName = 'Victory';
 
 console.log(firstName);
 
@@ -58,7 +58,7 @@ console.log(ageChole <= 10);
 console.log(now - 2000 > now - 2003);
 
 const averageAge = (ageDaniel + ageChole) / 2
-console.log(ageDaniel, ageChole, averageAge)
+console.log(ageDaniel, ageChole, averageAge)*/
 
 /*the first challenge 😃*/
 let massMark = "95";
