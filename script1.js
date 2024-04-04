@@ -18,3 +18,20 @@ else {const yearsLeft = 20 - age;
 console.log(`Hannah is too young. Wait another ${yearsLeft} years :)`
 );
 }
+
+const inputYear = '1999'
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+// 5 falsy values: 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean({}));
+
+
+const money = 100;
+if (money) {
+    console.log("Don't spend it all 😃");
+}
+else {
+    console.log('You should get a job!');
+}
