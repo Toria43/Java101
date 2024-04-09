@@ -59,3 +59,44 @@ const hasGoodVision = true; //B
 
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+/*const shouldDrive = hasDriversLicense && hasGoodVision;
+if(shouldDrive){
+    console.log('Sarah is able to drive!');
+} else {
+    console.log('Someone else should drive...');
+}*/
+
+const isTired = false; //c
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired){
+    console.log('Sarah is able to drive!');
+} else {
+    console.log('Someone else should drive...');
+}
+
+//challenge 3
+const scoreDolphins = (90 + 100 + 110) / 3;
+const scoreKoalas = (80 + 110 + 110) / 3;
+ console.log(scoreDolphins, scoreKoalas);
+
+ if (scoreDolphins > scoreKoalas) {
+     console.log('Dolphins win the trophy');
+ } else if (scoreKoalas > scoreDolphins) {
+     console.log('Koalas win the trophy');
+ } else {
+     console.log('Both win the trophy');
+ }
+
+ const day = 'monday';
+
+ switch(day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to codimg meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+ }
