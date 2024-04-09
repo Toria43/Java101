@@ -12,12 +12,12 @@ console.log(victoryNew)
 
 const age = 18;
 
-if (age >= 20)
+/* if (age >= 20)
 {console.log ('Hannah can have a driving license 🚘')}
 else {const yearsLeft = 20 - age;
 console.log(`Hannah is too young. Wait another ${yearsLeft} years :)`
 );
-}
+}*/
 
 const inputYear = '1999'
 console.log(Number(inputYear), inputYear);
@@ -35,3 +35,27 @@ if (money) {
 else {
     console.log('You should get a job!');
 }
+
+if (age === 18) console.log('You just became an adult :D (strict)');
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite ===23) { // 22 === 23 => FALSE
+    console.log('Cool! 23 is an amazing number!') 
+}  else if (favourite === 7) {
+        console.log('7 is also a cool number!')
+}   else if (favourite === 9) {
+    console.log('9 is also a cool number!')
+}   else {
+    console.log('Number is not 23 or 7 or 9')
+}
+
+if (favourite !== 23) console.log('Why not 23?')
+
+/*boolean logic*/
+const hasDriversLicense = true; // A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
